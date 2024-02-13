@@ -1,0 +1,45 @@
+footer{
+    height: max-content;
+    width: 100%;
+    background: rgba(73, 72, 72, 0.87);
+    margin-top: 50px;
+
+}
+.myMenu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:2rem;
+    padding: 10px 0 15px 0;
+
+}
+.myLogo{
+    font-size: 30px;
+    color: black;
+}
+.myLogo :hover{
+    color: rgb(66, 66, 66);
+}
+.myList{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 2rem;
+    margin-bottom: 30px;
+}
+.linkst{
+    text-decoration: none;
+    color:rgba(0, 0, 0, 0.87) ;
+    font-weight: 600;
+    letter-spacing : -0.02em;
+}
+.myList :hover{
+    color: rgb(66, 66, 66);
+}
+.Copyright{
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    padding-bottom: 5px;
+}

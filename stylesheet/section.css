@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+main{
+    background-color:rgb(236, 224, 241); 
+    
+}
+.content{
+    font-family: 'Roboto', sans-serif;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.content__img{  
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+.content__name{
+    font-size: 800;
+    color: rgba(73, 72, 72, 0.87);
+    letter-spacing: -0.03rem;
+}
+.content__apic{
+    text-transform: uppercase;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    font-size: 70px;
+    color : rgba(10, 10, 10, 0.87);
+    line-height: 0.9em;
+}
+.content__desc{
+    font-size: 400;
+    color: rgba(10, 10, 10, 0.87);
+    font-weight: 510;
+    padding-bottom: 25px;
+}
+span{
+    font-weight: 600;
+    color:rgba(73, 72, 72, 0.87) ;
+}
+.bigTitle{
+    display: flex;
+    justify-content: center;
+    color: rgba(73, 72, 72, 0.87);
+    font-size: 40px;
+    padding-top: 30px;
+    
+}
+.sous_content{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+    margin-top: 50px;  
+}
+.firstContiner{
+    padding: 10px;
+    margin-left: 20px;
+    opacity: 1px;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;background-color: rgba(153, 151, 151, 0.87) ;
+}
+.secondContiner{
+    padding: 10px;
+    margin-left: 20px;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    border-radius: 10px;background-color: rgba(153, 151, 151, 0.87) ;
+}
+.tirthContiner{
+    padding: 10px;
+    margin-left: 20px;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    border-radius: 10px;background-color: rgba(153, 151, 151, 0.87) ;
+}
+.forthContiner{
+    padding: 10px;
+    margin-left: 20px;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    border-radius: 10px;background-color: rgba(153, 151, 151, 0.87) ;
+}
+.icons{
+    text-decoration: none;
+    color:rgba(10, 10, 10, 0.87);
+
+}
+.sous_content :hover{
+    background-color:rgba(190, 188, 188, 0.87);
+}
+.firstContiner p{
+    margin-bottom: 55px;
+}
+.secondContiner p{
+    margin-bottom: 55px;
+}
+.tirthContiner p{
+    margin-bottom: 55px;
+}
+.forthContiner p{
+    margin-bottom: 55px;
+}
